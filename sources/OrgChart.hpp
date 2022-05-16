@@ -7,8 +7,8 @@ namespace ariel{
     class OrgChart{
         public:
             OrgChart();
-            OrgChart& add_root(const string&);
-            OrgChart& add_sub(const string&, const string&);
+            OrgChart& add_root(const string& object);
+            OrgChart& add_sub(const string& object, const string& subordinate_object);
             OrgChart* begin_level_order();
             OrgChart* end_level_order();
             OrgChart* begin_reverse_order();

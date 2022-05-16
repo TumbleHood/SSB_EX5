@@ -1,6 +1,5 @@
 #include "OrgChart.hpp"
 
-using namespace std;
 using namespace ariel;
 
 OrgChart::OrgChart(){}
