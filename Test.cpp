@@ -36,7 +36,7 @@ TEST_CASE("Traversals"){
         CHECK_EQ(it++, pointers.at(1));
         CHECK_EQ(it++, pointers.at(2));
         CHECK_EQ(it++, pointers.at(0));
-        CHECK_EQ(it, organization.end_reverse_order());
+        CHECK_EQ(it, organization.reverse_order());
     }
 
     SUBCASE("Preorder Traversal"){

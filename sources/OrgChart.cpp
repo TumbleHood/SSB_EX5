@@ -32,7 +32,7 @@ OrgChart* OrgChart::begin_reverse_order(){
     return this;
 }
 
-OrgChart* OrgChart::end_reverse_order(){
+OrgChart* OrgChart::reverse_order(){
     return this;
 }
 
